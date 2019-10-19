@@ -78,7 +78,6 @@ public class BaseClass {
 			logger.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
 		}
 		report.flush();
-
 		Reporter.log("Test completed and Reports Generated", true);
 
 	}
